@@ -1,3 +1,5 @@
+namespace ERBrains.SCM;
+
 table 60000 "ERB Sample"
 {
     Caption = 'Sample';

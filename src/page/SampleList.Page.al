@@ -1,11 +1,13 @@
+namespace ERBrains.SCM;
+
 page 60001 "Sample List"
 {
     ApplicationArea = All;
     Caption = 'Sample List';
     PageType = List;
-    SourceTable = Sample;
+    SourceTable = "ERB Sample";
     UsageCategory = Lists;
-    
+
     layout
     {
         area(Content)
