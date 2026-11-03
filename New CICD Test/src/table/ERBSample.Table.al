@@ -9,9 +9,14 @@ table 60000 "ERB Sample"
         {
             Caption = 'Code';
         }
-        field(2; Name; Text[250])
+        // field(2; Name; Text[250])
+        // {
+        //     Caption = 'Name';
+        // }
+        field(3; "Location Code"; Code[20])
         {
-            Caption = 'Name';
+            Caption = 'Location Code';
+            TableRelation = Location.Code;
         }
     }
     keys
