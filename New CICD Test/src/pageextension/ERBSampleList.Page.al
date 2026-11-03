@@ -7,7 +7,7 @@ page 60000 "ERB Sample List"
     PageType = List;
     SourceTable = "ERB Sample";
     UsageCategory = Lists;
-    
+
     layout
     {
         area(Content)
@@ -19,11 +19,11 @@ page 60000 "ERB Sample List"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Code field.', Comment = '%';
                 }
-                field(Name; Rec.Name)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Name field.', Comment = '%';
-                }
+                // field(Name; Rec.Name)
+                // {
+                //     ApplicationArea = All;
+                //     ToolTip = 'Specifies the value of the Name field.', Comment = '%';
+                // }
             }
         }
     }
