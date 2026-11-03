@@ -9,10 +9,12 @@ table 60000 "ERB Sample"
         {
             Caption = 'Code';
         }
-        // field(2; Name; Text[250])
-        // {
-        //     Caption = 'Name';
-        // }
+        field(2; Name; Text[250])
+        {
+            Caption = 'Name';
+            ObsoleteReason = 'Adding new fields with less length';
+            ObsoleteState = Pending;
+        }
         field(3; "Location Code"; Code[20])
         {
             Caption = 'Location Code';
