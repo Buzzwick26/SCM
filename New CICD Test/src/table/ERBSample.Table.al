@@ -20,6 +20,10 @@ table 60000 "ERB Sample"
             Caption = 'Location Code';
             TableRelation = Location.Code;
         }
+        field(4; "Address"; Text[100])
+        {
+            Caption = 'Address';
+        }
     }
     keys
     {
